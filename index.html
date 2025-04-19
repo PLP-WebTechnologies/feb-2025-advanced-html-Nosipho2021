@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+</head>
+<body>
+
+  <!-- Heading -->
+  <h1>Welcome to My Multimedia Webpage</h1>
+
+  <!-- 1. Embed an Image -->
+  <h2>Image Example</h2>
+  <img src="https://via.placeholder.com/300x200" alt="Sample Image">
+
+  <!-- 2. Embed a Table -->
+  <h2>Sample Table</h2>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Nosipho</td>
+      <td>28</td>
+      <td>South Africa</td>
+    </tr>
+  </table>
+
+  <!-- 3. Create a List -->
+  <h2>Hobbies</h2>
+  <ul>
+    <li>Coding</li>
+    <li>Music</li>
+    <li>Writing</li>
+  </ul>
+
+  <!-- 4. Multimedia Section -->
+  <h2>Audio and Video</h2>
+  <p>Listen to this:</p>
+  <audio controls>
+    <source src="sample-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p>Watch this:</p>
+  <video width="100%;" controls>
+    <source src="sample-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- 5. Registration Form with Validation -->
+  <h2>Register Here</h2>
+  <center>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+    <input type="submit" value="sign-up">
+  </form>
+</center>
+
+</body>
+</html>
